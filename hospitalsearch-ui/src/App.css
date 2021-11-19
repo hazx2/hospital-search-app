@@ -1,0 +1,274 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+.topmenu{
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 200;
+}
+ul{
+  list-style-type: none;
+    padding: 0px;
+}
+label{
+  font-weight: 500;
+}
+.area,.charges,.category{
+  padding: 10px;
+}
+main{
+  height: fit-content;
+  background-color: #F1F1F1;
+  min-height: -webkit-fill-available;
+}
+
+h1{
+  width: 25%;
+  margin-top: 20px;
+  text-align: center;
+}
+.searchBar{
+  width: 80%;
+  margin-top: 20px;
+}
+.menuWrapper{
+  width: 30%;
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.menu> button >span{
+  padding: 10px 10px 10px 0px !important;
+  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#root{
+  height: 100%;
+}
+.bullet {
+  display: inline-block;
+  margin: 0 2px;
+  transform: 'scale(0.8)'
+}
+.title {
+  font-size: 14px,
+}
+.pos{
+  margin-bottom: 12px,
+}
+.logo{
+  width: 245px;
+  height: 70px;
+  margin: 5px;
+  margin-right: 20px;
+}
+.distance{
+  display: flex;
+  justify-content: flex-end;
+}
+.distance >span{
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.hospitalWrapper{
+  height: fit-content;
+  padding: 110px 160px;
+  background-color: #F1F1F1;
+  min-height: -webkit-fill-available;
+}
+.homepagewrapper{
+  height: 100%;
+}
+.homepagewrapper > img{
+  height: 100%;
+  width: 100%;
+}
+.bedtypes{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.googlemapnavigation{
+  width: 40px; 
+  height:40px;
+  margin-right: 15px;
+}
+.hospital-card{
+  display: flex;
+  justify-content: space-between;
+}
+.bedCount{
+  text-align:center;
+}
+.hospital-name{
+  font-size: 32px;
+  font-weight: 450;
+  font-variant-caps: all-petite-caps;
+  color: mediumaquamarine;
+  font-family: ui-serif;
+}
+.hospital-cardwrapper{
+  margin: 10px;
+  border-left: 4px solid #a9a9a9 !important;
+}
+.bedtypes >li{
+  padding: 5px 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.MuiCardActions-root {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.searchHospitals{
+  font-size:30px;
+  font-size: 30px;
+  color: darksalmon;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.learnMore{
+  font-size: 14px !important;
+}
+nav{
+  background-color: #ED8074 !important;
+
+}
+ nav{
+  top: 80px !important;
+}
+.filterWrapper{
+  padding: 110px 160px;
+  background-color: #F1F1F1;
+  min-height: -webkit-fill-available;
+}
+.filterWrapper > .hospitalWrapper{
+  padding: 0px 0px;
+}
+.login{
+  padding: 160px 160px;
+}
+.searchforbeds{
+  border: none;
+  padding: 10px;
+  background: darkgray;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+svg{
+  font-size: 25px;
+}
+.card-header{
+  font-size: 18px;
+}
+.header-value{
+  font-size: 12px;
+  text-align: center;
+  color: #ED8074;
+}
+ .bedCount{
+  font-size: 16px;
+  text-align: center;
+  color: #ED8074;
+}
+.profilename{
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  color: #ED8074;
+}
+.profilename > svg{
+  padding: 0px 10px;
+  font-size: 20px;
+}
+.name{
+  font-size: 18px !important;
+}
+.slotbookingwrapper{
+  padding: 110px 160px;
+}
+.slot{
+  padding: 10px;
+  color: lightcoral;
+  border: 1px solid;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 5px;
+}
+.timeslots{
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.react-datepicker-wrapper>.react-datepicker__input-container>input{
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+.react-datepicker-wrapper{
+  padding: 10px !important;
+}
+.sidenav---sidenav---_2tBP {
+  width: fit-content;
+}
+.user-details{
+  margin: 10px;
+}
+.input-data{
+  width: 220px;
+  padding: 5px;
+}
+.slotbookbutton{
+  margin: 10px;
+  padding: 10px;
+  font-size: larger;
+  border: 0px;
+  background: salmon;
+  font-weight: 500;
+  color: white;
+}
+.Dropdown-control{
+  min-height: 40px;
+}
+
+.cursornotallowed{
+  cursor: not-allowed;
+}
+
+.slotBooked{
+  cursor: not-allowed;
+  background-color: lightgrey;
+  color: white;
+  border: white;
+}
+.slotAvailable{
+  cursor: pointer;
+}
+.slotselected{
+  background-color:#ED8074;
+  color: white;
+  border: white;
+}
+.about{
+  padding: 110px 160px;
+}
+.about>img{
+  height: 800px;
+  width: 1010px;
+}
